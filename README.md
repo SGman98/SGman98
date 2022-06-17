@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi, I'm Sebastian 👋 🧑‍💻
+
+[![SGman98's GitHub stats](https://github-readme-stats.vercel.app/api?username=SGman98)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **SGman98/SGman98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
