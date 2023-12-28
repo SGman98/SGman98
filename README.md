@@ -3,9 +3,6 @@ Hi 👋 My name is Sebastian
 
 * 🧠  I'm learning AWS, Angular, Go, Supabase...
 
-<a href="https://www.github.com/SGman98" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/SGman98?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-
 ### Skills
 
 <p align="left">
