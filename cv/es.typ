@@ -26,7 +26,7 @@
 
 #role("Ingeniero de Datos", "03/2025 – Actual")[
   #bullets(
-    item("data")[Diseñé el data warehouse en Redshift con el que reporta el equipo de BI y el framework de ETL en Glue/PySpark que lo carga: integra las bases Odoo de todos los clientes (cerca de 1.000 tablas) en un solo modelo con unas 100 vistas.],
+    item("data")[Diseñé el data warehouse en Redshift del que reporta el equipo de BI y el ETL en Glue/PySpark que lo carga: une las bases Odoo de todos los clientes (cerca de 1.000 tablas) en un modelo con unas 100 vistas.],
     item("data", "backend")[Construí las integraciones que alimentan los pipelines de datos: APIs de ERP vía Odoo JSON-RPC, APIs REST y archivos de SharePoint a través de AppFlow y S3. Todo funciona por configuración, así que sumar un cliente o una fuente no requiere código nuevo, y se prueba antes de cada despliegue.],
     item("data", "backend")[Construí con un equipo de cuatro las herramientas para migrar clientes de Odoo 13/16 a 18, donde el proceso estándar de actualización no alcanza. Han movido más de 10M de registros en unas 200 tablas.],
     item("data", "backend")[Construí una extensión server-side para Qlik en Python (gRPC) que agrega análisis de sentimiento y traducción a los dashboards de Qlik.],
@@ -51,7 +51,7 @@
 ]
 
 #section("Educación")
-#entry("Diplomado en Machine Learning y Ciencia de Datos", "Universidad Nacional de Colombia", "08/2026 – 12/2026")
+#entry("Diplomado en Machine Learning and Data Science (MLDS)", "Universidad Nacional de Colombia", "08/2026 – 12/2026")
 #entry("Ingeniería de Sistemas y Computación", "Universidad Nacional de Colombia", "2017 – 2023")
 
 #section("Habilidades")

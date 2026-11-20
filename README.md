@@ -18,7 +18,7 @@ I'm a data engineer at [Integra IT](https://www.integrait.co) in Bogotá with a 
 - 🔄 I built the Glue/PySpark ETL framework that loads it: config-driven, so a new client needs no new code, with automated tests before each deploy.
 - 🚚 With three teammates, I built the tooling that moves clients from Odoo 13/16 to 18: more than 10M records across about 200 tables so far.
 - ⚙️ On the backend side: TypeScript APIs and services (tRPC, Node.js, Next.js, DynamoDB).
-- 🎓 Currently doing a postgraduate diploma in Machine Learning & Data Science at Universidad Nacional de Colombia.
+- 🎓 Currently doing the Machine Learning and Data Science (MLDS) postgraduate diploma at Universidad Nacional de Colombia.
 
 My work code is private, so the repos here are mostly university and side projects.
 

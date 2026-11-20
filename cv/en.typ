@@ -51,7 +51,7 @@
 ]
 
 #section("Education")
-#entry("Postgraduate Diploma in Machine Learning & Data Science", "Universidad Nacional de Colombia", "Aug 2026 – Dec 2026")
+#entry("Postgraduate Diploma in Machine Learning and Data Science (MLDS)", "Universidad Nacional de Colombia", "Aug 2026 – Dec 2026")
 #entry("B.S. Systems and Computing Engineering", "Universidad Nacional de Colombia", "2017 – 2023")
 
 #section("Skills")
