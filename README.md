@@ -12,9 +12,9 @@
 
 ### 👋 About me
 
-I'm a data engineer at [Integra IT](https://www.integrait.co) in Bogotá with a backend background. Most of my work is the AWS data platform (Glue, PySpark, Redshift) behind a clinical trial management platform with clients in several countries, and the link between our analytics/BI and development teams.
+I'm a data engineer at [Integra IT](https://www.integrait.co) in Bogotá with a backend background. My work there includes our AWS data platform (Glue, PySpark, Redshift), which gives the BI team the data to report on a clinical trial management product with clients in several countries. I also act as the link between analytics/BI and development.
 
-- 🏗️ I designed the Redshift warehouse behind the platform's BI: about 1,000 Odoo tables filtered down to what reporting uses, plus around 100 views.
+- 🏗️ I designed the Redshift warehouse the BI team reports from: about 1,000 Odoo tables filtered down to what reporting uses, plus around 100 views.
 - 🔄 I built the Glue/PySpark ETL framework that loads it: config-driven, so a new client needs no new code, with automated tests before each deploy.
 - 🚚 With three teammates, I built the tooling that moves clients from Odoo 13/16 to 18: more than 10M records across about 200 tables so far.
 - ⚙️ On the backend side: TypeScript APIs and services (tRPC, Node.js, Next.js, DynamoDB).

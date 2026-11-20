@@ -15,8 +15,8 @@
 
 #section("Summary")
 #by-focus(
-  [Data engineer with a backend background. I build the AWS data platform (Glue, PySpark, Redshift) behind the BI of a clinical trial management platform with clients in several countries, and the tooling we use to migrate those clients between Odoo versions. I also connect the analytics/BI team with the development teams, and on the backend side I work with TypeScript, Node.js, tRPC and DynamoDB.],
-  data: [Data engineer at Integra IT. I build the AWS data platform (Glue, PySpark, Redshift) behind the BI of a clinical trial management platform with clients in several countries, and the tooling we use to migrate those clients between Odoo versions. I also sit between the analytics/BI team and the development teams, reviewing APIs and data models so product data reaches reporting the way it should.],
+  [Data engineer with a backend background. I build the AWS data platform (Glue, PySpark, Redshift) that gives our BI team the data to report on a clinical trial management product with clients in several countries, and the tooling we use to migrate those clients between Odoo versions. I also connect the analytics/BI team with the development teams, and on the backend side I work with TypeScript, Node.js, tRPC and DynamoDB.],
+  data: [Data engineer at Integra IT. I build the AWS data platform (Glue, PySpark, Redshift) that gives our BI team the data to report on a clinical trial management product with clients in several countries, and the tooling we use to migrate those clients between Odoo versions. I also sit between the analytics/BI team and the development teams, reviewing APIs and data models so product data reaches reporting the way it should.],
   backend: [Backend engineer who works close to the data. I've built APIs and services in TypeScript (tRPC, Node.js, Next.js, DynamoDB) and Python, and today I design the integrations between a clinical trial management platform, its ERP sources and its Redshift warehouse, including the tooling we use to migrate clients between Odoo versions.],
 )
 
@@ -26,7 +26,7 @@
 
 #role("Data Engineer", "Mar 2025 – Present")[
   #bullets(
-    item("data")[Designed the Redshift data warehouse behind the platform's BI and the Glue/PySpark ETL framework that feeds it, bringing every client's Odoo database (around 1,000 tables) into one model with about 100 reporting views.],
+    item("data")[Designed the Redshift data warehouse the BI team reports from and the Glue/PySpark ETL framework that loads it, bringing every client's Odoo database (around 1,000 tables) into one model with about 100 reporting views.],
     item("data", "backend")[Built the integrations that feed the data pipelines: ERP APIs over Odoo JSON-RPC, REST APIs, and SharePoint files through AppFlow and S3. Everything is config-driven, so a new client or source needs no new code, and it is tested before each deploy.],
     item("data", "backend")[Built, with a team of four, the tooling that migrates clients from Odoo 13/16 to 18 where the standard upgrade path falls short. It has moved more than 10M records across about 200 tables.],
     item("data", "backend")[Built a Qlik server-side extension in Python (gRPC) that adds sentiment analysis and translation to Qlik dashboards.],
