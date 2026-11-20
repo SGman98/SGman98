@@ -9,13 +9,23 @@
 // by-focus([general text], data: [...], backend: [...])
 #let by-focus(general, ..alts) = alts.named().at(focus, default: general)
 
-// A bullet tagged with the focuses it is most relevant to.
-#let item(..tags, body) = (tags: tags.pos(), body: body)
+// Photo on by default; build with --input photo=false for US/EU applications.
+#let show-photo = sys.inputs.at("photo", default: "true") != "false"
 
-// Every bullet is always shown. In a focused build, bullets tagged with
-// that focus move to the top; the rest keep their written order.
+// A bullet tagged with the focuses it is most relevant to.
+//   item("data", "backend")[...]           shown everywhere
+//   item("data", hide: ("backend",))[...]  left out of the backend build
+// To change wording per focus instead of hiding, use by-focus inside the body.
+#let item(..args, body) = (
+  tags: args.pos(),
+  hide: args.named().at("hide", default: ()),
+  body: body,
+)
+
+// In a focused build, bullets tagged with that focus move to the top;
+// the rest keep their written order. Bullets hidden for the focus are dropped.
 #let bullets(..items) = {
-  let all = items.pos()
+  let all = items.pos().filter(i => focus not in i.hide)
   if focus != "general" {
     all = all.sorted(key: i => if focus in i.tags { 0 } else { 1 })
   }
@@ -51,7 +61,7 @@
       #v(2pt)
       #text(size: 8.5pt, fill: muted)[#contact.join(h(10pt))]
     ],
-    if photo != none {
+    if photo != none and show-photo {
       box(clip: true, radius: 100%, width: 64pt, height: 64pt, image(photo, width: 100%, height: 100%, fit: "cover"))
     },
   )

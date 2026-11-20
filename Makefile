@@ -2,9 +2,13 @@
 #
 #   make cv          general version (EN + ES), the one linked from the README
 #   make variants    data and backend focus (EN + ES) into cv/out/, not committed.
-#                    Same content as the general CV; only title, summary and order change.
+#                    Title, summary, bullet order and some wording change per focus;
+#                    bullets can also be hidden per focus (see item() in cv/lib.typ).
 #   make all         both
 #   make watch LANG=en FOCUS=backend   live rebuild while editing
+#
+# No-photo copy (US/EU applications):
+#   typst compile --root cv --input photo=false [--input focus=data] cv/en.typ out.pdf
 CV_DIR := cv
 OUT    := $(CV_DIR)/out
 SRC    := $(CV_DIR)/lib.typ $(CV_DIR)/profile.jpg
