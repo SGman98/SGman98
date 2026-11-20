@@ -26,7 +26,7 @@
 
 #role("Ingeniero de Datos", "03/2025 – Actual")[
   #bullets(
-    item("data")[Diseñé el data warehouse en Redshift del que el equipo de BI saca sus reportes, junto con el framework de ETL en Glue/PySpark que lo carga, integrando las bases de datos Odoo de todos los clientes (cerca de 1.000 tablas) en un solo modelo con unas 100 vistas para reportes.],
+    item("data")[Diseñé el data warehouse en Redshift con el que reporta el equipo de BI y el framework de ETL en Glue/PySpark que lo carga: integra las bases Odoo de todos los clientes (cerca de 1.000 tablas) en un solo modelo con unas 100 vistas.],
     item("data", "backend")[Construí las integraciones que alimentan los pipelines de datos: APIs de ERP vía Odoo JSON-RPC, APIs REST y archivos de SharePoint a través de AppFlow y S3. Todo funciona por configuración, así que sumar un cliente o una fuente no requiere código nuevo, y se prueba antes de cada despliegue.],
     item("data", "backend")[Construí con un equipo de cuatro las herramientas para migrar clientes de Odoo 13/16 a 18, donde el proceso estándar de actualización no alcanza. Han movido más de 10M de registros en unas 200 tablas.],
     item("data", "backend")[Construí una extensión server-side para Qlik en Python (gRPC) que agrega análisis de sentimiento y traducción a los dashboards de Qlik.],
@@ -51,7 +51,7 @@
 ]
 
 #section("Educación")
-#entry("Diplomado de posgrado en Machine Learning y Ciencia de Datos", "Universidad Nacional de Colombia", "08/2026 – 12/2026")
+#entry("Diplomado en Machine Learning y Ciencia de Datos", "Universidad Nacional de Colombia", "08/2026 – 12/2026")
 #entry("Ingeniería de Sistemas y Computación", "Universidad Nacional de Colombia", "2017 – 2023")
 
 #section("Habilidades")
@@ -65,6 +65,7 @@
 ))
 
 #section("Certificaciones")
-#entry("AWS Academy Graduate: Introduction to Cloud", "AWS Academy", "2023")
-#entry("Python for Everybody (Especialización)", "University of Michigan · Coursera", "2021")
-#entry("Algorithmic Toolbox", "UC San Diego · Coursera", "2021")
+#entry(link("https://github.com/SGman98/SGman98/blob/main/certificates/2024-nida-good-clinical-practice.pdf")[Buenas Prácticas Clínicas (GCP)], "NIDA Clinical Trials Network", "2024")
+#entry(link("https://www.credly.com/badges/013a0cbc-f3f2-4b49-855a-e7672a40267e")[AWS Academy Graduate: Introduction to Cloud], "AWS Academy", "2023")
+#entry(link("https://coursera.org/verify/specialization/Q8QW7AX4A9X8")[Python for Everybody (Especialización)], "University of Michigan · Coursera", "2021")
+#entry(link("https://coursera.org/verify/MUCM36M4NM9B")[Algorithmic Toolbox], "UC San Diego · Coursera", "2021")

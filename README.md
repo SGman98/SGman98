@@ -70,9 +70,12 @@ My work code is private, so the repos here are mostly university and side projec
 
 ### 📜 Certifications
 
-- **AWS Academy Graduate** — Introduction to Cloud (2023)
-- **Python for Everybody** — University of Michigan (2021) · [certificates](./Certificates/Coursera/Python%20for%20everybody)
-- **Algorithmic Toolbox** — UC San Diego (2021)
+- **Good Clinical Practice** — NIDA Clinical Trials Network (2024)
+- **AWS Academy Graduate** — Introduction to Cloud (2023) · [badge](https://www.credly.com/badges/013a0cbc-f3f2-4b49-855a-e7672a40267e)
+- **Python for Everybody** — University of Michigan (2021) · [verify](https://coursera.org/verify/specialization/Q8QW7AX4A9X8)
+- **Algorithmic Toolbox** — UC San Diego (2021) · [verify](https://coursera.org/verify/MUCM36M4NM9B)
+
+All files and verification links: [certificates](./certificates)
 
 ### 📊 GitHub stats
 
